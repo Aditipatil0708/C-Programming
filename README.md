@@ -20,11 +20,9 @@ Low-level execution concepts such as stack frames, function calling mechanisms, 
 
 Preprocessor and macros including conditional compilation, header file usage, tokenization, pragma directives, and bitfields.
 
-How to Compile and Run
-💻 On Windows (MinGW / GCC)
-gcc program.c -o program
-program
+| Operating System | Compile Command            | Run Command |
+| ---------------- | -------------------------- | ----------- |
+| Windows (MinGW)  | `gcc program.c -o program` | `program`   |
+| Linux            | `gcc program.c -o program` | `./program` |
+| macOS            | `gcc program.c -o program` | `./program` |
 
-🐧 On Linux
-gcc program.c -o program
-./program
